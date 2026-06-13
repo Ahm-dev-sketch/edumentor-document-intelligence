@@ -11,7 +11,9 @@ export interface DocumentMetadata {
   createdAt: string;
 }
 
-const DB_DIR = path.join(process.cwd(), 'data');
+const DB_DIR = process.env.VERCEL
+  ? path.join('/tmp', 'data')
+  : path.join(process.cwd(), 'data');
 const DB_FILE = path.join(DB_DIR, 'documents.json');
 
 // Initialize database file and folder
