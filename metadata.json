@@ -1,0 +1,6 @@
+{
+  "name": "EduMentor: Document Intelligence",
+  "description": "An AI-powered Q&A and analysis platform for documents (PDF, Word, Excel, CSV) built with React and Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
